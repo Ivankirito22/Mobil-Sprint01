@@ -1,0 +1,51 @@
+Gradle
+
+.gradle/ build/ **/build/
+
+Android Studio / IntelliJ
+
+.idea/ *.iml *.ipr *.iws out/
+
+Local configuration
+
+local.properties
+
+Contains local SDK paths and machine-specific settings
+APKs and Android build artifacts
+
+*.apk *.aab *.ap_ *.dex *.class
+
+Generated files
+
+bin/ gen/ captures/ .externalNativeBuild/ .cxx/ lint/intermediates/ lint/generated/ lint/outputs/ lint/tmp/
+
+Signing keys and credentials
+
+*.jks *.keystore keystore.properties signing.properties
+
+Google Services / Firebase secrets (optional)
+Uncomment if these files contain sensitive project-specific configuration
+google-services.json
+Native build artifacts
+
+*.so *.o *.a
+
+Kotlin
+
+.kotlin/
+
+Logs
+
+*.log
+
+OS-generated files
+
+.DS_Store Thumbs.db Desktop.ini
+
+Temporary files
+
+*.tmp *.swp *.swo *~
+
+Android Studio profiling files
+
+*.hprof *.trace
